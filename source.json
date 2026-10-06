@@ -16,6 +16,15 @@
       "tintColor": "#7B5CFF",
       "versions": [
         {
+          "version": "1.2",
+          "buildVersion": "3",
+          "date": "2026-10-06T12:30:00-04:00",
+          "localizedDescription": "Explored ground now glows mint and finished streets are drawn, with a legend. Streets load from a tiled cache so a second request no longer re-downloads everything, the map servers are asked in parallel, and fill-in plans on every core with a time cap. A new plan replaces one still in progress instead of getting stuck behind it. Unfog can write its Sync folder straight into iCloud Drive › beento › import.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-1.2.ipa",
+          "size": 1219929,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1",
           "buildVersion": "2",
           "date": "2026-10-06T10:40:00-04:00",
