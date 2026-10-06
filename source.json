@@ -1,7 +1,7 @@
 {
   "name": "Unfog",
   "identifier": "com.haydengise.unfog.source",
-  "subtitle": "Bike rides that clear your fog.",
+  "subtitle": "Ride or walk the streets you haven't.",
   "description": "Hayden's builds of Unfog.",
   "iconURL": "https://raw.githubusercontent.com/haydengise/unfog/main/icon.png",
   "tintColor": "#7B5CFF",
@@ -10,16 +10,25 @@
       "name": "Unfog",
       "bundleIdentifier": "com.haydengise.unfog",
       "developerName": "Hayden Gise",
-      "subtitle": "Bike rides that clear your fog.",
-      "localizedDescription": "Turn-by-turn bike routes that take you down streets you haven't ridden yet. Reads Been To and Fog of World, writes a Sync folder back, and plans rides to 100% of any neighborhood.",
+      "subtitle": "Ride or walk the streets you haven't.",
+      "localizedDescription": "Turn-by-turn bike and walking routes down streets you haven't covered yet. Capital Bikeshare and Citi Bike built in, quiet-street and hill-aware routing, Lock Screen directions, widgets, Siri, achievements and city stats. Reads Been To and Fog of World and writes back to both.",
       "iconURL": "https://raw.githubusercontent.com/haydengise/unfog/main/icon.png",
       "tintColor": "#7B5CFF",
       "versions": [
         {
+          "version": "2.0",
+          "buildVersion": "4",
+          "date": "2026-10-06T17:30:00-04:00",
+          "localizedDescription": "A new look built around a pull-up panel. Directions say left, right and straight instead of compass points. Walks clear fog too. Capital Bikeshare and Citi Bike stations and loose e-bikes on the map, with advice on whether to dock or pay the lock-to fee near your destination, and a one-tap jump to the CaBi app to unlock. Routes can favor quiet streets and avoid hills. New planners: Frontier pushes out from the edge of your map, Errands strings stops together, Finish Lines lists the neighborhoods you're closest to completing. Lock Screen and Dynamic Island directions, Home Screen widgets, Siri shortcuts, rain warnings, offline street download, 18 tiered achievements and a Stats tab. Diagnostics logging so problems can be fixed from your rides.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-2.0.ipa",
+          "size": 1943375,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.2",
           "buildVersion": "3",
           "date": "2026-10-06T12:30:00-04:00",
-          "localizedDescription": "Explored ground now glows mint and finished streets are drawn, with a legend. Streets load from a tiled cache so a second request no longer re-downloads everything, the map servers are asked in parallel, and fill-in plans on every core with a time cap. A new plan replaces one still in progress instead of getting stuck behind it. Unfog can write its Sync folder straight into iCloud Drive › beento › import.",
+          "localizedDescription": "Explored ground now glows mint and finished streets are drawn, with a legend. Streets load from a tiled cache so a second request no longer re-downloads everything, the map servers are asked in parallel, and fill-in plans on every core with a time cap. A new plan replaces one still in progress instead of getting stuck behind it. Unfog can write its Sync folder straight into iCloud Drive \u203a beento \u203a import.",
           "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-1.2.ipa",
           "size": 1219929,
           "minOSVersion": "17.0"
@@ -28,7 +37,7 @@
           "version": "1.1",
           "buildVersion": "2",
           "date": "2026-10-06T10:40:00-04:00",
-          "localizedDescription": "Been To backups import correctly. Connect Been To's automatic backups folder to sync on every launch; hand-imported backups merge instead of replacing. New Sync folder at On My iPhone › Unfog › Fog of World › Sync for Been To to read.",
+          "localizedDescription": "Been To backups import correctly. Connect Been To's automatic backups folder to sync on every launch; hand-imported backups merge instead of replacing. New Sync folder at On My iPhone \u203a Unfog \u203a Fog of World \u203a Sync for Been To to read.",
           "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog.ipa",
           "size": 1186851,
           "minOSVersion": "17.0"
