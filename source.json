@@ -1,0 +1,38 @@
+{
+  "name": "Unfog",
+  "identifier": "com.haydengise.unfog.source",
+  "subtitle": "Bike rides that clear your fog.",
+  "description": "Hayden's builds of Unfog.",
+  "iconURL": "https://raw.githubusercontent.com/haydengise/unfog/main/icon.png",
+  "tintColor": "#7B5CFF",
+  "apps": [
+    {
+      "name": "Unfog",
+      "bundleIdentifier": "com.haydengise.unfog",
+      "developerName": "Hayden Gise",
+      "subtitle": "Bike rides that clear your fog.",
+      "localizedDescription": "Turn-by-turn bike routes that take you down streets you haven't ridden yet. Reads Been To and Fog of World, writes a Sync folder back, and plans rides to 100% of any neighborhood.",
+      "iconURL": "https://raw.githubusercontent.com/haydengise/unfog/main/icon.png",
+      "tintColor": "#7B5CFF",
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-10-06T10:40:00-04:00",
+          "localizedDescription": "Been To backups import correctly. Connect Been To's automatic backups folder to sync on every launch; hand-imported backups merge instead of replacing. New Sync folder at On My iPhone › Unfog › Fog of World › Sync for Been To to read.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog.ipa",
+          "size": 1186851,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocationWhenInUseUsageDescription": "Unfog plans rides from where you are and gives turn-by-turn directions, including with the screen locked in your pocket.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "With Always on, Unfog keeps giving directions and logging your ride when the phone is locked or another app is open."
+        }
+      }
+    }
+  ],
+  "news": []
+}
