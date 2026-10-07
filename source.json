@@ -16,6 +16,15 @@
       "tintColor": "#7B5CFF",
       "versions": [
         {
+          "version": "2.6.1",
+          "buildVersion": "7",
+          "date": "2026-10-07T17:00:00-04:00",
+          "localizedDescription": "Rebuilt from your ride logs. Directions now talk like Apple Maps does for bikes: \"At the next light, turn right onto R Street,\" \"After the light, turn left,\" \"At the stop sign, turn left,\" \"Take the second right,\" \"Turn left into the alley, then turn right onto R Street.\" Miss a turn and Unfog plans fresh from where you are, the way you're already heading, instead of sending you back; anything you ride off-route counts right away and is never sent back to you. New Fastest option for going somewhere: the quickest route, with new streets only where they're nearly free, and it routes the moment you pick a place. Trips count turns and skip dead ends, so no more alley zig-zags. Turn prompts cut off anything older so they're never late. No more freezes during rides, and offline cities now install. Music dips under the voice and podcasts pause and pick back up; only directions interrupt what you're playing, and your audio is always handed back.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-2.6.1.ipa",
+          "size": 2210317,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.5",
           "buildVersion": "5",
           "date": "2026-10-06T20:30:00-04:00",
