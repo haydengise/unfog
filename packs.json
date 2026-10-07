@@ -1,0 +1,140 @@
+{
+ "version": "2026-10-05",
+ "packs": [
+  {
+   "id": "dc",
+   "name": "Washington, DC",
+   "detail": "With Arlington, Alexandria, Bethesda and Silver Spring",
+   "bbox": [
+    38.75,
+    -77.25,
+    39.08,
+    -76.88
+   ],
+   "bytes": 9873924,
+   "sha256": "28a019a2dd1e1d0663cb60781851c1e1eb07869b48209381e05f15c68f8f07b4",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/dc.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "baltimore",
+   "name": "Baltimore",
+   "detail": null,
+   "bbox": [
+    39.19,
+    -76.77,
+    39.42,
+    -76.48
+   ],
+   "bytes": 4568970,
+   "sha256": "ce538b00dffa7c212a84c379b395a265f89923e339366087db6deb0189a2d4c0",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/baltimore.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "wilmington",
+   "name": "Wilmington",
+   "detail": null,
+   "bbox": [
+    39.66,
+    -75.68,
+    39.82,
+    -75.46
+   ],
+   "bytes": 1454974,
+   "sha256": "8cbad9e25ca569c2d0cbbf6e43b9845297e89df710587fd653b100129ca3fc69",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/wilmington.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "philadelphia",
+   "name": "Philadelphia",
+   "detail": "With Camden",
+   "bbox": [
+    39.85,
+    -75.32,
+    40.15,
+    -74.93
+   ],
+   "bytes": 7916310,
+   "sha256": "a835be8dad768bd93be1aa0eb14ef6fa5f4bd83b03e62540ce84401585903485",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/philadelphia.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "nyc",
+   "name": "New York City",
+   "detail": "Five boroughs, Jersey City, Hoboken and Newark",
+   "bbox": [
+    40.48,
+    -74.28,
+    40.93,
+    -73.68
+   ],
+   "bytes": 15947923,
+   "sha256": "2171b72d67c141950d81ad148258b1c953709eac8a49507e50cb10394c44ebf7",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/nyc.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "newhaven",
+   "name": "New Haven",
+   "detail": null,
+   "bbox": [
+    41.24,
+    -73.0,
+    41.37,
+    -72.85
+   ],
+   "bytes": 1177383,
+   "sha256": "c6c62e63703dcb4c724821237b44cd5599a3b932156b8002aa277d4aa3f459e9",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/newhaven.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "providence",
+   "name": "Providence",
+   "detail": null,
+   "bbox": [
+    41.75,
+    -71.5,
+    41.89,
+    -71.35
+   ],
+   "bytes": 1320076,
+   "sha256": "93751345265f220c0e1ef3557a2a25035262c9a455dced6980800ae93bd1e8f9",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/providence.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "boston",
+   "name": "Boston",
+   "detail": "With Cambridge, Somerville and Brookline",
+   "bbox": [
+    42.2,
+    -71.22,
+    42.45,
+    -70.95
+   ],
+   "bytes": 5707699,
+   "sha256": "68e97d63598f11446fc957a7d6798a51a3feacca87b91ff3367b62f05503da7c",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/boston.ufp",
+   "version": "2026-10-05"
+  },
+  {
+   "id": "richmond",
+   "name": "Richmond",
+   "detail": null,
+   "bbox": [
+    37.44,
+    -77.58,
+    37.64,
+    -77.36
+   ],
+   "bytes": 2612086,
+   "sha256": "bcf290a9754e012fad5527c41e6cce38209cf8a385a3925ae53536133606c55e",
+   "url": "https://raw.githubusercontent.com/haydengise/unfog/main/packs/richmond.ufp",
+   "version": "2026-10-05"
+  }
+ ]
+}

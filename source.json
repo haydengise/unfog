@@ -11,17 +11,26 @@
       "bundleIdentifier": "com.haydengise.unfog",
       "developerName": "Hayden Gise",
       "subtitle": "Ride or walk the streets you haven't.",
-      "localizedDescription": "Turn-by-turn bike and walking routes down streets you haven't covered yet. Capital Bikeshare and Citi Bike built in, quiet-street and hill-aware routing, Lock Screen directions, widgets, Siri, achievements and city stats. Reads Been To and Fog of World and writes back to both.",
+      "localizedDescription": "Turn-by-turn bike and walking routes down streets you haven't covered yet, with directions that sound like a person. Offline street data for the Northeast Regional cities, Capital Bikeshare and Citi Bike built in, quiet-street and hill-aware routing, Lock Screen directions, widgets, Siri, achievements and city stats. Reads Been To and Fog of World and writes back to both.",
       "iconURL": "https://raw.githubusercontent.com/haydengise/unfog/main/icon.png",
       "tintColor": "#7B5CFF",
       "versions": [
         {
+          "version": "2.5",
+          "buildVersion": "5",
+          "date": "2026-10-06T20:30:00-04:00",
+          "localizedDescription": "Directions that sound like a person: \"left at the next light,\" \"take the second right,\" \"end of the street, go left,\" using traffic lights, stop signs and corner landmarks, rewritten on your iPhone by Apple Intelligence and checked against the route before they're spoken. Offline cities: DC, Baltimore, Wilmington, Philadelphia, New York, New Haven, Providence, Boston and Richmond download as one small file each, so plans start instantly and work without signal. Plans appear right away on streets already loaded, and your usual loop is ready before you tap Plan. Unfog learns your real pace from your rides. New option to clear fog on every walk and bike ride, even ones you don't start in the app.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-2.5.ipa",
+          "size": 2177943,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.0",
           "buildVersion": "4",
-          "date": "2026-10-06T17:30:00-04:00",
+          "date": "2026-10-06T19:15:00-04:00",
           "localizedDescription": "A new look built around a pull-up panel. Directions say left, right and straight instead of compass points. Walks clear fog too. Capital Bikeshare and Citi Bike stations and loose e-bikes on the map, with advice on whether to dock or pay the lock-to fee near your destination, and a one-tap jump to the CaBi app to unlock. Routes can favor quiet streets and avoid hills. New planners: Frontier pushes out from the edge of your map, Errands strings stops together, Finish Lines lists the neighborhoods you're closest to completing. Lock Screen and Dynamic Island directions, Home Screen widgets, Siri shortcuts, rain warnings, offline street download, 18 tiered achievements and a Stats tab. Diagnostics logging so problems can be fixed from your rides.",
           "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-2.0.ipa",
-          "size": 1943375,
+          "size": 1949805,
           "minOSVersion": "17.0"
         },
         {
@@ -47,7 +56,8 @@
         "entitlements": [],
         "privacy": {
           "NSLocationWhenInUseUsageDescription": "Unfog plans rides from where you are and gives turn-by-turn directions, including with the screen locked in your pocket.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "With Always on, Unfog keeps giving directions and logging your ride when the phone is locked or another app is open."
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "With Always on, Unfog keeps giving directions and logging your ride when the phone is locked or another app is open.",
+          "NSMotionUsageDescription": "Unfog uses motion to tell when you're walking or biking, so it can clear fog on outings you didn't start in the app. Driving and transit never count."
         }
       }
     }
