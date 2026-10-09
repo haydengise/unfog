@@ -16,6 +16,15 @@
       "tintColor": "#7B5CFF",
       "versions": [
         {
+          "version": "2.8",
+          "buildVersion": "8",
+          "date": "2026-10-09T19:45:00-04:00",
+          "localizedDescription": "Built for riding with the phone in your pocket and AirPods in. Plan a route, lock the phone and ride off: directions start on their own, the Lock Screen says Ready while it waits, and the screen goes dark in your pocket so nothing gets tapped by accident. Turn lines are timed to your real pace so they finish a few seconds before the corner, and they count streets when another one comes first (\"take the second left\") instead of saying \"here\". A tone in the left or right ear comes before each turn, a soft tick confirms you made it, and long stretches get a \"stay on R Street for half a mile.\" \"New street\" is said when you cross into fog, not on every turn. Errands rides no longer drag you back after a missed turn: they head to your next stop from where you are, the way you're already going. If you ignore a few new routes in a row, it stops announcing them. No more freezes at every spoken line. Fill rides no longer make U-turns in the middle of a block. Every turn is listed on the route preview. All of it was stress-tested on simulated rides through all nine offline cities and replayed against your own ride logs.",
+          "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-2.8.ipa",
+          "size": 2306417,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.6.1",
           "buildVersion": "7",
           "date": "2026-10-07T16:50:00-04:00",
@@ -46,7 +55,7 @@
           "version": "1.2",
           "buildVersion": "3",
           "date": "2026-10-06T12:30:00-04:00",
-          "localizedDescription": "Explored ground now glows mint and finished streets are drawn, with a legend. Streets load from a tiled cache so a second request no longer re-downloads everything, the map servers are asked in parallel, and fill-in plans on every core with a time cap. A new plan replaces one still in progress instead of getting stuck behind it. Unfog can write its Sync folder straight into iCloud Drive \u203a beento \u203a import.",
+          "localizedDescription": "Explored ground now glows mint and finished streets are drawn, with a legend. Streets load from a tiled cache so a second request no longer re-downloads everything, the map servers are asked in parallel, and fill-in plans on every core with a time cap. A new plan replaces one still in progress instead of getting stuck behind it. Unfog can write its Sync folder straight into iCloud Drive › beento › import.",
           "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog-1.2.ipa",
           "size": 1219929,
           "minOSVersion": "17.0"
@@ -55,7 +64,7 @@
           "version": "1.1",
           "buildVersion": "2",
           "date": "2026-10-06T10:40:00-04:00",
-          "localizedDescription": "Been To backups import correctly. Connect Been To's automatic backups folder to sync on every launch; hand-imported backups merge instead of replacing. New Sync folder at On My iPhone \u203a Unfog \u203a Fog of World \u203a Sync for Been To to read.",
+          "localizedDescription": "Been To backups import correctly. Connect Been To's automatic backups folder to sync on every launch; hand-imported backups merge instead of replacing. New Sync folder at On My iPhone › Unfog › Fog of World › Sync for Been To to read.",
           "downloadURL": "https://raw.githubusercontent.com/haydengise/unfog/main/Unfog.ipa",
           "size": 1186851,
           "minOSVersion": "17.0"
